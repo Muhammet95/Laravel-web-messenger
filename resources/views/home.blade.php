@@ -26,3 +26,9 @@
     </div>
 </div>
 @endsection
+
+@push('script')
+    <script>
+        Echo.public()
+    </script>
+@endpush
